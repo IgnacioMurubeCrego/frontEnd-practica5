@@ -7,7 +7,6 @@ type Props = {
 };
 
 const PostsViewer: FunctionalComponent<Props> = (props) => {
-  //const state = useSignal(false);
   const posts = props.posts;
   return (
     <>
