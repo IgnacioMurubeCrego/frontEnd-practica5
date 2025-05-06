@@ -29,7 +29,7 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "ignaciomuru-practica5-49"
+          project: "ignaciomuru-frontend-pr-71"
           entrypoint: "main.ts"
           root: "."
           
