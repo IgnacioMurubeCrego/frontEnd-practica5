@@ -1,7 +1,8 @@
 import { FunctionalComponent } from "preact/src/index.d.ts";
 import { postCardInfo } from "../types.ts";
 
-import PostCard from "../components/postCard.tsx";
+import PostCard from "../components/PostCard.tsx";
+
 type Props = {
   posts: postCardInfo[];
 };
